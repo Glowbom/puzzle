@@ -7,6 +7,8 @@ public class MovePiece : MonoBehaviour
 
     public string pieceStatus = "";
 
+    public Transform edgeParticles;
+
 
 
     // Start is called before the first frame update
@@ -34,6 +36,7 @@ public class MovePiece : MonoBehaviour
         {
             transform.position = other.gameObject.transform.position;
             pieceStatus = "locked";
+            Instantiate(edgeParticles, other.gameObject.transform.position, edgeParticles.rotation);
         }
     }
 }
