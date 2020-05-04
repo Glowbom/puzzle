@@ -29,7 +29,7 @@ public class MovePiece : MonoBehaviour
             transform.position = objPosition;
         }
 
-        if (Input.GetKeyDown(placePiece))
+        if (Input.GetKeyDown(placePiece) && pieceStatus == "pickedup")
         {
             checkPlacement = "y";
         }
@@ -42,7 +42,7 @@ public class MovePiece : MonoBehaviour
         {
             other.GetComponent<BoxCollider2D>().enabled = false;
             GetComponent<BoxCollider2D>().enabled = false;
-
+            GetComponent<Renderer>().sortingOrder = 0;
             transform.position = other.gameObject.transform.position;
             pieceStatus = "locked";
             Instantiate(edgeParticles, other.gameObject.transform.position, edgeParticles.rotation);
@@ -62,5 +62,6 @@ public class MovePiece : MonoBehaviour
     {
         pieceStatus = "pickedup";
         checkPlacement = "n";
+        GetComponent<Renderer>().sortingOrder = 10;
     }
 }
