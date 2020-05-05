@@ -17,10 +17,12 @@ public class MovePiece : MonoBehaviour
     public float yDiff;
     public Vector2 invPos;
 
+    public Sprite[] levels;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<SpriteRenderer>().sprite = levels[Menu.level];
     }
 
     // Update is called once per frame
