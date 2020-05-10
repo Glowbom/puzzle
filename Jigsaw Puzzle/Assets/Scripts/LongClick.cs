@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 
 public class LongClick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    private bool longClickTriggered = false;
     private bool pointerDown = false;
     private float pointerDownTimer;
 
@@ -21,16 +22,17 @@ public class LongClick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        if (!longClickTriggered && pointerDownTimer < requiredHoldTime && onNormalClick != null)
+        {
+            onNormalClick.Invoke();
+        }
+
+        longClickTriggered = false;
         reset();
     }
 
     void reset()
     {
-        if (pointerDownTimer < requiredHoldTime && onNormalClick != null)
-        {
-            onNormalClick.Invoke();
-        }
-
         pointerDown = false;
         pointerDownTimer = 0;
     }
@@ -45,6 +47,7 @@ public class LongClick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             {
                 if (onLongClick != null)
                 {
+                    longClickTriggered = true;
                     onLongClick.Invoke();
 
                     reset();
