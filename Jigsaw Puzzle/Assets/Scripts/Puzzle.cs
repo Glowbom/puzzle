@@ -95,7 +95,7 @@ public class Puzzle : MonoBehaviour
         {
             if (!sprites.ContainsKey(path))
             {
-                sprites.Add(path, Resources.LoadAll<Sprite>(path));
+                sprites.Add(path, Resources.LoadAll<Sprite>("Textures/" + path));
             }
         }
     }
@@ -125,7 +125,6 @@ public class Puzzle : MonoBehaviour
         for (int i = 0; i < buttons.Length; i++)
         {
             int randomIndex = UnityEngine.Random.Range(0, easyList.Count);
-            Debug.Log("randomIndex = " + randomIndex + ": value = " + easyList[randomIndex]);
             dataEasy[i] = easyList[randomIndex];
             easyList.RemoveAt(randomIndex);
 
