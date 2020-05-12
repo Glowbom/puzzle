@@ -37,6 +37,17 @@ public class Puzzle : MonoBehaviour
         }
         else
         {
+            if (index == firstClickedIndex)
+            {
+                puzzleLongClicked(index);
+                refreshUi();
+                var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                tempColor.a = 1f;
+                buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+
+                firstClickedIndex = -1;
+                return;
+            }
             swap(index);
         }
     }
