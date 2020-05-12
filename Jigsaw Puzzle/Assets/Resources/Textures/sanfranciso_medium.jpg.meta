@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 55886be04386741749790175b3567bb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2241722552723583395
+    second: sanfranciso_medium_0
+  - first:
+      213: -6272524443434252396
+    second: sanfranciso_medium_1
+  - first:
+      213: -1211478150861864087
+    second: sanfranciso_medium_2
+  - first:
+      213: -5274681254134875958
+    second: sanfranciso_medium_3
+  - first:
+      213: 6280995193763388530
+    second: sanfranciso_medium_4
+  - first:
+      213: 9083551985744112317
+    second: sanfranciso_medium_5
+  - first:
+      213: -6486389705301410932
+    second: sanfranciso_medium_6
+  - first:
+      213: 3609160106384663178
+    second: sanfranciso_medium_7
+  - first:
+      213: 230284811722070695
+    second: sanfranciso_medium_8
+  - first:
+      213: 5401914506278692489
+    second: sanfranciso_medium_9
+  - first:
+      213: 5906641383647659503
+    second: sanfranciso_medium_10
+  - first:
+      213: 3783985842206858329
+    second: sanfranciso_medium_11
+  - first:
+      213: 6477039913227647361
+    second: sanfranciso_medium_12
+  - first:
+      213: -1491745318666419488
+    second: sanfranciso_medium_13
+  - first:
+      213: 27550845126262215
+    second: sanfranciso_medium_14
+  - first:
+      213: 3192139570783149372
+    second: sanfranciso_medium_15
+  - first:
+      213: 7863748628184220685
+    second: sanfranciso_medium_16
+  - first:
+      213: -2303178497722182132
+    second: sanfranciso_medium_17
+  - first:
+      213: -6984701429483893885
+    second: sanfranciso_medium_18
+  - first:
+      213: -713263766528386892
+    second: sanfranciso_medium_19
+  - first:
+      213: 8706433682810028738
+    second: sanfranciso_medium_20
+  - first:
+      213: -8808308858241866057
+    second: sanfranciso_medium_21
+  - first:
+      213: 1110187481127787095
+    second: sanfranciso_medium_22
+  - first:
+      213: -7671343826297481334
+    second: sanfranciso_medium_23
+  - first:
+      213: 1577945709308285647
+    second: sanfranciso_medium_24
+  - first:
+      213: 6156830747920654824
+    second: sanfranciso_medium_25
+  - first:
+      213: -1847085685857660020
+    second: sanfranciso_medium_26
+  - first:
+      213: 6709257052338799325
+    second: sanfranciso_medium_27
+  - first:
+      213: 1903043656096087614
+    second: sanfranciso_medium_28
+  - first:
+      213: -4505138315055099700
+    second: sanfranciso_medium_29
+  - first:
+      213: 7870194239284804115
+    second: sanfranciso_medium_30
+  - first:
+      213: -1312834388911611926
+    second: sanfranciso_medium_31
+  - first:
+      213: -8180055329761365229
+    second: sanfranciso_medium_32
+  - first:
+      213: 8982394303936282646
+    second: sanfranciso_medium_33
+  - first:
+      213: 1314597120008406398
+    second: sanfranciso_medium_34
+  - first:
+      213: 10204840458693622
+    second: sanfranciso_medium_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sanfranciso_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554d14d42c9f645eeae26960da6b769b
+      internalID: 2241722552723583395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a390e9ab9b584a638732c3d6f1a3137
+      internalID: -6272524443434252396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf926230f4ac4414b5e907be43e91ce
+      internalID: -1211478150861864087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588211556c4fc4b2d93cab887791e94a
+      internalID: -5274681254134875958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bcb0e9b5924439b908ae68a20dda27
+      internalID: 6280995193763388530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa72d5850924f898b296ee8d96decd
+      internalID: 9083551985744112317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca83db7c49f4cc689f8302ff89c7dd
+      internalID: -6486389705301410932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec2dac1caefe415fa8102e1736f4ade
+      internalID: 3609160106384663178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a6ff97c8e664f2dba9f46db51e0315
+      internalID: 230284811722070695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba348ab33c23f445b8f29e901513b930
+      internalID: 5401914506278692489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ccc7aebd7d2492883eff2368896190
+      internalID: 5906641383647659503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f58b18b95b479eab4ff204a47636b
+      internalID: 3783985842206858329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd417d6cbb0bd4db6b8eea6126b7705b
+      internalID: 6477039913227647361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025162f433f14441a68f17abe881063
+      internalID: -1491745318666419488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3b908b0aea24ec1b277d826ed977c5
+      internalID: 27550845126262215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7c48688bfc54e5ca222fade3135698
+      internalID: 3192139570783149372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68b84e3d6696434c8f446efdefbdd18
+      internalID: 7863748628184220685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716eb9cef90454671baaf52f8f9b5817
+      internalID: -2303178497722182132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8fae8dbc98242e1ab9b192980ada4d
+      internalID: -6984701429483893885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865b1b45f4e5b4fadb9a6d43ebd1a5b1
+      internalID: -713263766528386892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_20
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1397b495ec3f041c28b7a040f4d8af13
+      internalID: 8706433682810028738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7290bb4b385204a95bd184cdbc1db7bb
+      internalID: -8808308858241866057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383f3c9af655e492ba20d831960990cd
+      internalID: 1110187481127787095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_23
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a60b9c56b984b01bb357a931919dce
+      internalID: -7671343826297481334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6528a32e3478b4727966fc01774aa1e7
+      internalID: 1577945709308285647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e97ca77025c45888d241d5d756cbda
+      internalID: 6156830747920654824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fb1ded925c14896931e4d7a0a0d9c3
+      internalID: -1847085685857660020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb290f293f74075b37047cd8c1b168
+      internalID: 6709257052338799325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_28
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81898cee458e14921accc3dd997b1e02
+      internalID: 1903043656096087614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419bbfef611a14ed7b2dc3ab563ade07
+      internalID: -4505138315055099700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19aa326fb76848c9a4ddb75d0a665e3
+      internalID: 7870194239284804115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3fd435efc1f42f3b3d270dd014aaa3
+      internalID: -1312834388911611926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58748ce1998c34b85bd498ba3da70743
+      internalID: -8180055329761365229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_33
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6a66b4c1e24e7e9a160e72ff4a858
+      internalID: 8982394303936282646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9550ea528854d3e8ff882ee6752355
+      internalID: 1314597120008406398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanfranciso_medium_35
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4a7aa2fb034521b2142e4f0c6775b
+      internalID: 10204840458693622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

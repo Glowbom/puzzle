@@ -9,20 +9,43 @@ public class Puzzle : MonoBehaviour
     public Dictionary<string, Sprite[]> sprites;
 
     public LongClick[] buttons;
+    public LongClick[] mediumButtons;
+
+    public GameObject easyGame;
+    public GameObject mediumGame;
+
     public bool rotate = true;
 
 
     private int firstClickedIndex = -1;
     private int[] dataEasy;
-    private string key = "sanfranciso";
-        
+    private int[] dataMedium;
+    private int[] dataHard;
+
+    private string keyMedium = "sanfranciso_medium";
+    private string keyEasy = "sanfranciso";
+
+
     public void puzzleLongClicked(int index)
     {
-        buttons[index].gameObject.transform.eulerAngles = new Vector3(
+        if (easyGame.activeInHierarchy)
+        {
+            buttons[index].gameObject.transform.eulerAngles = new Vector3(
             buttons[index].gameObject.transform.eulerAngles.x,
             buttons[index].gameObject.transform.eulerAngles.y,
             buttons[index].gameObject.transform.eulerAngles.z + 90
-        );
+            );
+        }
+
+        if (mediumGame.activeInHierarchy)
+        {
+            mediumButtons[index].gameObject.transform.eulerAngles = new Vector3(
+            mediumButtons[index].gameObject.transform.eulerAngles.x,
+            mediumButtons[index].gameObject.transform.eulerAngles.y,
+            mediumButtons[index].gameObject.transform.eulerAngles.z + 90
+            );
+        }
+
     }
 
     public void puzzleClicked(int index)
@@ -31,9 +54,19 @@ public class Puzzle : MonoBehaviour
         {
             firstClickedIndex = index;
 
-            var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
-            tempColor.a = 0.5f;
-            buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+            if (easyGame.activeInHierarchy)
+            {
+                var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                tempColor.a = 0.5f;
+                buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+            }
+
+            if (mediumGame.activeInHierarchy)
+            {
+                var tempColor = mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                tempColor.a = 0.5f;
+                mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+            }
         }
         else
         {
@@ -41,9 +74,20 @@ public class Puzzle : MonoBehaviour
             {
                 puzzleLongClicked(index);
                 refreshUi();
-                var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
-                tempColor.a = 1f;
-                buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+
+                if (easyGame.activeInHierarchy)
+                {
+                    var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                    tempColor.a = 1f;
+                    buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+                }
+
+                if (mediumGame.activeInHierarchy)
+                {
+                    var tempColor = mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                    tempColor.a = 1f;
+                    mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+                }
 
                 firstClickedIndex = -1;
                 return;
@@ -54,31 +98,71 @@ public class Puzzle : MonoBehaviour
 
     public void swap(int index)
     {
-        var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
-        tempColor.a = 1f;
-        buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+        if (easyGame.activeInHierarchy)
+        {
+            var tempColor = buttons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+            tempColor.a = 1f;
+            buttons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
 
 
-        float lastButtonRotation = buttons[index].gameObject.transform.eulerAngles.z;
-        float firstButtonRotation = buttons[firstClickedIndex].gameObject.transform.eulerAngles.z;
+            float lastButtonRotation = buttons[index].gameObject.transform.eulerAngles.z;
+            float firstButtonRotation = buttons[firstClickedIndex].gameObject.transform.eulerAngles.z;
 
-        buttons[firstClickedIndex].gameObject.transform.eulerAngles = new Vector3(
-            buttons[firstClickedIndex].gameObject.transform.eulerAngles.x,
-            buttons[firstClickedIndex].gameObject.transform.eulerAngles.y,
-            lastButtonRotation
-        );
+            buttons[firstClickedIndex].gameObject.transform.eulerAngles = new Vector3(
+                buttons[firstClickedIndex].gameObject.transform.eulerAngles.x,
+                buttons[firstClickedIndex].gameObject.transform.eulerAngles.y,
+                lastButtonRotation
+            );
 
-        buttons[index].gameObject.transform.eulerAngles = new Vector3(
-            buttons[index].gameObject.transform.eulerAngles.x,
-            buttons[index].gameObject.transform.eulerAngles.y,
-            firstButtonRotation
-        );
+            buttons[index].gameObject.transform.eulerAngles = new Vector3(
+                buttons[index].gameObject.transform.eulerAngles.x,
+                buttons[index].gameObject.transform.eulerAngles.y,
+                firstButtonRotation
+            );
+        }
 
-        int firstData = dataEasy[firstClickedIndex];
-        int lastData = dataEasy[index];
+        if (mediumGame.activeInHierarchy)
+        {
+            var tempColor = mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+            tempColor.a = 1f;
+            mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
 
-        dataEasy[firstClickedIndex] = lastData;
-        dataEasy[index] = firstData;
+
+            float lastButtonRotation = mediumButtons[index].gameObject.transform.eulerAngles.z;
+            float firstButtonRotation = mediumButtons[firstClickedIndex].gameObject.transform.eulerAngles.z;
+
+            mediumButtons[firstClickedIndex].gameObject.transform.eulerAngles = new Vector3(
+                mediumButtons[firstClickedIndex].gameObject.transform.eulerAngles.x,
+                mediumButtons[firstClickedIndex].gameObject.transform.eulerAngles.y,
+                lastButtonRotation
+            );
+
+            mediumButtons[index].gameObject.transform.eulerAngles = new Vector3(
+                mediumButtons[index].gameObject.transform.eulerAngles.x,
+                mediumButtons[index].gameObject.transform.eulerAngles.y,
+                firstButtonRotation
+            );
+        }
+
+
+            if (easyGame.activeInHierarchy)
+        {
+            int firstData = dataEasy[firstClickedIndex];
+            int lastData = dataEasy[index];
+
+            dataEasy[firstClickedIndex] = lastData;
+            dataEasy[index] = firstData;
+        }
+
+        if (mediumGame.activeInHierarchy)
+        {
+            int firstData = dataMedium[firstClickedIndex];
+            int lastData = dataMedium[index];
+
+            dataMedium[firstClickedIndex] = lastData;
+            dataMedium[index] = firstData;
+        }
+
 
         refreshUi();
 
@@ -87,10 +171,22 @@ public class Puzzle : MonoBehaviour
 
     private void refreshUi()
     {
-        for(int i = 0; i < buttons.Length; i++)
+        if (easyGame.activeInHierarchy)
         {
-            buttons[i].gameObject.GetComponent<Image>().sprite = sprites[key][dataEasy[i]];
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                buttons[i].gameObject.GetComponent<Image>().sprite = sprites[keyEasy][dataEasy[i]];
+            }
         }
+
+        if (mediumGame.activeInHierarchy)
+        {
+            for (int i = 0; i < mediumButtons.Length; i++)
+            {
+                mediumButtons[i].gameObject.GetComponent<Image>().sprite = sprites[keyMedium][dataMedium[i]];
+            }
+        }
+
     }
 
     private void loadResources()
@@ -99,7 +195,8 @@ public class Puzzle : MonoBehaviour
 
         string[] spriteImages =
         {
-            "sanfranciso",
+            keyEasy,
+            keyMedium,
         };
 
         foreach (string path in spriteImages)
@@ -116,17 +213,63 @@ public class Puzzle : MonoBehaviour
     {
         loadResources();
 
+        easyGame.SetActive(true);
+        mediumGame.SetActive(false);
+
         dataEasy = new int[buttons.Length];
         for (int i = 0; i < buttons.Length; i++)
         {
             dataEasy[i] = i;
         }
 
+        dataMedium = new int[mediumButtons.Length];
+        for (int i = 0; i < mediumButtons.Length; i++)
+        {
+            dataMedium[i] = i;
+        }
+
+
+        refreshUi();
+    }
+
+    public void mediumPressed()
+    {
+        easyGame.SetActive(false);
+        mediumGame.SetActive(true);
+
+        for (int i = 0; i < mediumButtons.Length; i++)
+        {
+            dataMedium[i] = i;
+        }
+
+        List<int> easyList = new List<int>(dataMedium);
+        for (int i = 0; i < mediumButtons.Length; i++)
+        {
+            int randomIndex = UnityEngine.Random.Range(0, easyList.Count);
+            dataMedium[i] = easyList[randomIndex];
+            easyList.RemoveAt(randomIndex);
+
+            if (rotate)
+            {
+                int randomRotation = UnityEngine.Random.Range(0, 3);
+                mediumButtons[i].gameObject.transform.eulerAngles = new Vector3(
+                    mediumButtons[i].gameObject.transform.eulerAngles.x,
+                    mediumButtons[i].gameObject.transform.eulerAngles.y,
+                    randomRotation * 90f
+                );
+            }
+
+        }
+
+
         refreshUi();
     }
 
     public void easyPressed()
     {
+        easyGame.SetActive(true);
+        mediumGame.SetActive(false);
+
         for (int i = 0; i < buttons.Length; i++)
         {
             dataEasy[i] = i;
