@@ -6,6 +6,14 @@ using UnityEngine.UI;
 
 public class Puzzle : MonoBehaviour
 {
+    private string[] spriteImages =
+        {
+            "sanfranciso",
+            "newyork",
+            "la",
+            "sd"
+        };
+
     public Dictionary<string, Sprite[]> sprites;
 
     public LongClick[] buttons;
@@ -251,23 +259,42 @@ public class Puzzle : MonoBehaviour
     {
         sprites = new Dictionary<string, Sprite[]>();
 
-        string[] spriteImages =
-        {
-            keyEasy,
-            keyMedium,
-        };
-
         foreach (string path in spriteImages)
         {
             if (!sprites.ContainsKey(path))
             {
                 sprites.Add(path, Resources.LoadAll<Sprite>("Textures/" + path));
             }
+
+            if (!sprites.ContainsKey(path + "_medium"))
+            {
+                sprites.Add(path + "_medium", Resources.LoadAll<Sprite>("Textures/" + path + "_medium"));
+            }
         }
+    }
+
+    private int previousLevel = -1;
+
+    public void next()
+    {
+        int randomIndex = 0;
+        do
+        {
+            randomIndex = UnityEngine.Random.Range(0, spriteImages.Length);
+            keyEasy = spriteImages[randomIndex];
+            keyMedium = spriteImages[randomIndex] + "_medium";
+        } while (previousLevel == randomIndex);
+
+        previousLevel = randomIndex;
+
+        restart();
     }
 
     public void restart()
     {
+        
+
+
         isGameInProgress = false;
         victoryView.SetActive(false);
         //easyGame.SetActive(true);

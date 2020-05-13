@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 4f48cf7ba4c7b4be7924d4a282e480ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7854092160818710748
+    second: newyork_medium_0
+  - first:
+      213: 4045646446742699633
+    second: newyork_medium_1
+  - first:
+      213: 6495368708622716820
+    second: newyork_medium_2
+  - first:
+      213: 1834608209833927322
+    second: newyork_medium_3
+  - first:
+      213: -3386842792951651306
+    second: newyork_medium_4
+  - first:
+      213: -2781302720917501025
+    second: newyork_medium_5
+  - first:
+      213: -8155462324706810751
+    second: newyork_medium_6
+  - first:
+      213: 6000380162122275061
+    second: newyork_medium_7
+  - first:
+      213: 5191180970282112128
+    second: newyork_medium_8
+  - first:
+      213: -6722305198102602635
+    second: newyork_medium_9
+  - first:
+      213: 7127378426251388543
+    second: newyork_medium_10
+  - first:
+      213: -1514637748196258281
+    second: newyork_medium_11
+  - first:
+      213: -8841776939130219390
+    second: newyork_medium_12
+  - first:
+      213: -8717057375432388420
+    second: newyork_medium_13
+  - first:
+      213: 8352407280605371193
+    second: newyork_medium_14
+  - first:
+      213: 2458224220565166803
+    second: newyork_medium_15
+  - first:
+      213: 1612033524488944225
+    second: newyork_medium_16
+  - first:
+      213: -7961710975970769378
+    second: newyork_medium_17
+  - first:
+      213: -6906771913597968358
+    second: newyork_medium_18
+  - first:
+      213: -3898464815630205012
+    second: newyork_medium_19
+  - first:
+      213: 336844547593846054
+    second: newyork_medium_20
+  - first:
+      213: -3553285958462679728
+    second: newyork_medium_21
+  - first:
+      213: -8460751165516323807
+    second: newyork_medium_22
+  - first:
+      213: -6312035390128180316
+    second: newyork_medium_23
+  - first:
+      213: -8214341358307676453
+    second: newyork_medium_24
+  - first:
+      213: 6368769738381301907
+    second: newyork_medium_25
+  - first:
+      213: -3628312491657088905
+    second: newyork_medium_26
+  - first:
+      213: 7262504384886293203
+    second: newyork_medium_27
+  - first:
+      213: 524441010246255471
+    second: newyork_medium_28
+  - first:
+      213: 6029718520984745823
+    second: newyork_medium_29
+  - first:
+      213: 1789286925212279482
+    second: newyork_medium_30
+  - first:
+      213: 6735685789960459491
+    second: newyork_medium_31
+  - first:
+      213: -6688149037071865617
+    second: newyork_medium_32
+  - first:
+      213: 1460262084489554820
+    second: newyork_medium_33
+  - first:
+      213: 8234537071591783541
+    second: newyork_medium_34
+  - first:
+      213: -6155085960926541947
+    second: newyork_medium_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newyork_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8d65502ece493688a0bfe2866e46e
+      internalID: 7854092160818710748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ff7f410e9144c08fb8438451f2321
+      internalID: 4045646446742699633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5554f23f22946ce8b119233a79362f
+      internalID: 6495368708622716820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ef5cffeef294ac89f03e1a94098a4f
+      internalID: 1834608209833927322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8965d488b74db4fa9b536a1005766254
+      internalID: -3386842792951651306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e51901691f041f89c3100dfaf8e8d8
+      internalID: -2781302720917501025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09621c07a6374454fb1764bf588ad500
+      internalID: -8155462324706810751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331eeaec7b1a84e2da8daf96f89dbccb
+      internalID: 6000380162122275061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd634862f048e443bb45c52966e9fcf5
+      internalID: 5191180970282112128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81172974398dd450a89af756121f0485
+      internalID: -6722305198102602635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4584024373436467383ebddccc55e216
+      internalID: 7127378426251388543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a1d64fbdc446de9b30c2d7cc7313a
+      internalID: -1514637748196258281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e106ec188b4044afea61316578032b70
+      internalID: -8841776939130219390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4eb8e751a02402b8d6e57e8441dfb9
+      internalID: -8717057375432388420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3aa170730454c9db66bb3921458bbd
+      internalID: 8352407280605371193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84de9e9da0aa54a16a82938f34c71410
+      internalID: 2458224220565166803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfff0c07fc5794a8390c2384d4d97be7
+      internalID: 1612033524488944225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b23e0266933464981626e529ed5ffc
+      internalID: -7961710975970769378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae77f64742424af091c6a87c209fe61
+      internalID: -6906771913597968358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b394395a99e84f0cbe7d0ad382a0920
+      internalID: -3898464815630205012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_20
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce433aad75bf474cb00624c83906d0c
+      internalID: 336844547593846054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e690988b1dab74526a230dc82306e508
+      internalID: -3553285958462679728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81079883d4c8a40ecae7bd9ac35d232d
+      internalID: -8460751165516323807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_23
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98614ab6853b24a91869de9dde96333f
+      internalID: -6312035390128180316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feee057d4cd5418fb48d2dd2dbefd8a
+      internalID: -8214341358307676453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af728a91f7574156a3da7d78fd0b9af
+      internalID: 6368769738381301907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1e85706d10d4fd28202ad3d8b99e1e
+      internalID: -3628312491657088905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f9de6f75fe4428bbc3361a56f86f64
+      internalID: 7262504384886293203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_28
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c464614b042da4d71b62e9e4cb9c808d
+      internalID: 524441010246255471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5292bcaa5b7914721bc7306a7174c321
+      internalID: 6029718520984745823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b62f4c45e204fefacdb840d17f1a31
+      internalID: 1789286925212279482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dd65e73453f469a9f97ce8c993ed48
+      internalID: 6735685789960459491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d5dd74916d24766b5041b578333814
+      internalID: -6688149037071865617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_33
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c60e994d784349b485976e378f361
+      internalID: 1460262084489554820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa4e34427156453f9bc1ddff8d200af
+      internalID: 8234537071591783541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newyork_medium_35
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8347e4e717c404ed8a5297c2450ab623
+      internalID: -6155085960926541947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
