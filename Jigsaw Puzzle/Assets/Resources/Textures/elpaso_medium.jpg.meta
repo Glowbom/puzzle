@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 08330b5055df047d3b5103d56b00c42a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3340240003550611336
+    second: elpaso_medium_0
+  - first:
+      213: 758022468934105388
+    second: elpaso_medium_1
+  - first:
+      213: -2712913214180088631
+    second: elpaso_medium_2
+  - first:
+      213: 6793259410085520766
+    second: elpaso_medium_3
+  - first:
+      213: 6265659640683136249
+    second: elpaso_medium_4
+  - first:
+      213: -768443508996981413
+    second: elpaso_medium_5
+  - first:
+      213: -2866906057592925666
+    second: elpaso_medium_6
+  - first:
+      213: -2377611197120106904
+    second: elpaso_medium_7
+  - first:
+      213: -2002339951571213132
+    second: elpaso_medium_8
+  - first:
+      213: -1217258832109443213
+    second: elpaso_medium_9
+  - first:
+      213: -7007987825409940972
+    second: elpaso_medium_10
+  - first:
+      213: -6790001302621551720
+    second: elpaso_medium_11
+  - first:
+      213: 8468070148523480642
+    second: elpaso_medium_12
+  - first:
+      213: 4215294437203525103
+    second: elpaso_medium_13
+  - first:
+      213: -3027108615696821929
+    second: elpaso_medium_14
+  - first:
+      213: 2172975577018074480
+    second: elpaso_medium_15
+  - first:
+      213: -2245240228688728256
+    second: elpaso_medium_16
+  - first:
+      213: 1261744817233332133
+    second: elpaso_medium_17
+  - first:
+      213: 3150517975572560590
+    second: elpaso_medium_18
+  - first:
+      213: 7637592924575571506
+    second: elpaso_medium_19
+  - first:
+      213: 7825945595818648787
+    second: elpaso_medium_20
+  - first:
+      213: 5962496219928903109
+    second: elpaso_medium_21
+  - first:
+      213: 7895887149463506865
+    second: elpaso_medium_22
+  - first:
+      213: 2024635984602463190
+    second: elpaso_medium_23
+  - first:
+      213: -4421240191273978247
+    second: elpaso_medium_24
+  - first:
+      213: 8870745371046666645
+    second: elpaso_medium_25
+  - first:
+      213: 5099080011718644493
+    second: elpaso_medium_26
+  - first:
+      213: 1952110585532773874
+    second: elpaso_medium_27
+  - first:
+      213: 4982181188045480728
+    second: elpaso_medium_28
+  - first:
+      213: 1338155568643963470
+    second: elpaso_medium_29
+  - first:
+      213: 6540098211315828506
+    second: elpaso_medium_30
+  - first:
+      213: 2140961981103284594
+    second: elpaso_medium_31
+  - first:
+      213: -86951129810354205
+    second: elpaso_medium_32
+  - first:
+      213: -2753075619483062761
+    second: elpaso_medium_33
+  - first:
+      213: -2531609686082592871
+    second: elpaso_medium_34
+  - first:
+      213: 7875383655099604667
+    second: elpaso_medium_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elpaso_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18774e4db57ca49009253f9ba0a92825
+      internalID: 3340240003550611336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e9d26bcb18b421c8fb24e457ea1a71
+      internalID: 758022468934105388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d084a2e7cfd41809d4568d7fd36fe2
+      internalID: -2712913214180088631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ca9b5004bf344aa85cd18cc9fadda2
+      internalID: 6793259410085520766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b5c171bf4e24b7b88c8c67ce8b8f7a
+      internalID: 6265659640683136249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 710.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a26390768fad47a2ad6a402686bef30
+      internalID: -768443508996981413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d382a7bf0084770b59797886c3101c
+      internalID: -2866906057592925666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c1487f8529d43be917b77fcf39910f
+      internalID: -2377611197120106904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8faa323a16440faa1071d89c0f2497
+      internalID: -2002339951571213132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaefd378453d547ba8cbed26861c03f4
+      internalID: -1217258832109443213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9ca88919f0a46cbbe6ea49b16a3811
+      internalID: -7007987825409940972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 568.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c186d4d3352a47d89f29bc19c4e3c6a
+      internalID: -6790001302621551720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ee85ae53c2544c3a958a921b5a19b0
+      internalID: 8468070148523480642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65326cfd838c400f97b41ad4b6693f9
+      internalID: 4215294437203525103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ddb104474f4b00b997e76d0dc0326
+      internalID: -3027108615696821929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d217f9648a7488eb9a572ed4418d49
+      internalID: 2172975577018074480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2f840f69a140069c3beea8fd687d1
+      internalID: -2245240228688728256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 426.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b205135ca17d24711a8602c5dfc7ac04
+      internalID: 1261744817233332133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740615a482a849a788806f467f610f1
+      internalID: 3150517975572560590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fca5c3b065354284aa7ae8659f6788f
+      internalID: 7637592924575571506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_20
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aef25d02987426aaed556983b1ce18
+      internalID: 7825945595818648787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50494fa9c5bc64aa1b4aac6473dfb57b
+      internalID: 5962496219928903109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1187b21a47c8f4acc86dd57a73dfd577
+      internalID: 7895887149463506865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_23
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 284.8333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4692052748aa24e769bcf572ce5e1199
+      internalID: 2024635984602463190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf7ce303a12745cda3cb631040b2a91
+      internalID: -4421240191273978247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802856aa2905f4539973160a3e91803e
+      internalID: 8870745371046666645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56712c3e368416dbbdc4298b64e694
+      internalID: 5099080011718644493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b093cfd5ccd524aad898ef9df3024936
+      internalID: 1952110585532773874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_28
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f93d88d7d8d7483ba2f22e599df0bf2
+      internalID: 4982181188045480728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 142.83333
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f666df323642c437aaa48e21818cc2f0
+      internalID: 1338155568643963470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528bd5796723438ba4d09a6d9365af1
+      internalID: 6540098211315828506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f6018a61d974cfdadc9396f44c3278
+      internalID: 2140961981103284594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9260ae4b6414722bce75a953a25f98
+      internalID: -86951129810354205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_33
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a3342d527fe497c84febfba3290b63
+      internalID: -2753075619483062761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a23e1bcce24999a6f2e3c4ae0cb8e
+      internalID: -2531609686082592871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elpaso_medium_35
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0.83332825
+        width: 142.16667
+        height: 142.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f968c7240464f4faeb5cf74aa7333184
+      internalID: 7875383655099604667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

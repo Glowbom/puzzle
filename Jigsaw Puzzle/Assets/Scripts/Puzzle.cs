@@ -11,7 +11,11 @@ public class Puzzle : MonoBehaviour
             "sanfranciso",
             "newyork",
             "la",
-            "sd"
+            "sd",
+            "boston",
+            "chicago",
+            "elpaso",
+            "seattle"
         };
 
     public Dictionary<string, Sprite[]> sprites;
@@ -277,20 +281,39 @@ public class Puzzle : MonoBehaviour
 
     public void next()
     {
-        int randomIndex = 0;
-        do
-        {
-            randomIndex = UnityEngine.Random.Range(0, spriteImages.Length);
-            keyEasy = spriteImages[randomIndex];
-            keyMedium = spriteImages[randomIndex] + "_medium";
-        } while (previousLevel == randomIndex);
+        if (previousLevel == -1)
+		{
+			++previousLevel;
+		}
 
-        previousLevel = randomIndex;
+		++previousLevel;
+        if (previousLevel >= spriteImages.Length)
+		{
+			previousLevel = 0;
+		}
 
-        restart();
+		keyEasy = spriteImages[previousLevel];
+		keyMedium = spriteImages[previousLevel] + "_medium";
+
+		restart();
     }
 
-    public void restart()
+	public void randomNext()
+	{
+		int randomIndex = 0;
+		do
+		{
+			randomIndex = UnityEngine.Random.Range(0, spriteImages.Length);
+			keyEasy = spriteImages[randomIndex];
+			keyMedium = spriteImages[randomIndex] + "_medium";
+		} while (previousLevel == randomIndex);
+
+		previousLevel = randomIndex;
+
+		restart();
+	}
+
+	public void restart()
     {
         
 
