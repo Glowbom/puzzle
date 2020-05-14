@@ -6,16 +6,64 @@ using UnityEngine.UI;
 
 public class Puzzle : MonoBehaviour
 {
+    Monetization monetization = new Monetization();
+
     private string[] spriteImages =
         {
-            "sanfranciso",
-            "newyork",
-            "la",
-            "sd",
-            "boston",
-            "chicago",
-            "elpaso",
-            "seattle"
+        "voyage/ny",
+        "voyage/ko5",
+        "voyage/newyork",
+        "voyage/new1",
+        
+        
+            "voyage/sanfranciso",
+            
+            "voyage/va2",
+            "voyage/sf3",
+            "voyage/la",
+            "voyage/kl1",
+            "voyage/ge1",
+            "voyage/ko4",
+            "voyage/sd1",
+            "voyage/sf4",
+            "voyage/sd",
+            "voyage/sf5",
+            "voyage/boston",
+            "voyage/sd7",
+            "voyage/ko3",
+            "voyage/sf6",
+            "voyage/ge2",
+            "voyage/va1",
+            "voyage/sd6",
+            "voyage/chicago",
+            "voyage/ep3",
+            "voyage/elpaso",
+            "voyage/sf7",
+            "voyage/ko2",
+            "voyage/sd5",
+            "voyage/seattle",
+            "voyage/sf8",
+            "voyage/moscow",
+            "voyage/sf9",
+            "voyage/sd4",
+            "voyage/deitroit",
+            "voyage/sf10",
+            "voyage/denver",
+            "voyage/sf11",
+            "voyage/tallinn",
+            "voyage/sd3",
+            "voyage/sf2",
+            "voyage/tbilisi",
+            "voyage/vilnius",
+            "voyage/ge3",
+            "voyage/miami",
+            "voyage/sf12",
+            "voyage/sd2",
+            "voyage/ko1",
+            "voyage/va3",
+            "voyage/austin",
+            "voyage/new2",
+            "voyage/new3",
         };
 
     public Dictionary<string, Sprite[]> sprites;
@@ -36,8 +84,8 @@ public class Puzzle : MonoBehaviour
     private int[] dataEasy;
     private int[] dataMedium;
 
-    private string keyMedium = "sanfranciso_medium";
-    private string keyEasy = "sanfranciso";
+    private string keyMedium = "voyage/ny_medium";
+    private string keyEasy = "voyage/ny";
 
     private void checkWinninState()
     {
@@ -48,8 +96,6 @@ public class Puzzle : MonoBehaviour
             {
                 if (dataEasy[i] != i || buttons[i].gameObject.transform.eulerAngles.z >= 90f)
                 {
-                    Debug.Log("i = " + i +", dataEasy[i] != " + i + ", buttons[i].gameObject.transform.eulerAngles.z = " + buttons[i].gameObject.transform.eulerAngles.z +
-                        " !Mathf.Approximately(buttons[i].gameObject.transform.eulerAngles.z, 0f) = " + !Mathf.Approximately(buttons[i].gameObject.transform.eulerAngles.z, 0f));
                     won = false;
                     break;
                 }
@@ -72,6 +118,8 @@ public class Puzzle : MonoBehaviour
         {
             victoryView.SetActive(true);
             isGameInProgress = false;
+
+            monetization.showInterstitial();
         }
     }
 
@@ -360,11 +408,32 @@ public class Puzzle : MonoBehaviour
         loadResources();
 
         restart();
+
+        try
+        {
+            monetization.initAds();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
+		
+		
     }
 
     public void mediumPressed()
     {
-        isGameInProgress = true;
+        try
+        {
+            monetization.showBanner();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
+        
+
+		isGameInProgress = true;
         victoryView.SetActive(false);
         rotate = toggle.isOn;
         easyGame.SetActive(false);
@@ -407,6 +476,15 @@ public class Puzzle : MonoBehaviour
 
     public void easyPressed()
     {
+        try
+        {
+            monetization.showBanner();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
+
         isGameInProgress = true;
         victoryView.SetActive(false);
         rotate = toggle.isOn;

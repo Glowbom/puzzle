@@ -42,19 +42,23 @@ public class Monetization
         string adUnitId = "unexpected_platform";
 #endif
 
-        // Create a 320x50 banner at the top of the screen.
-        this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.BottomRight);
+        if (this.bannerView == null)
+        {
+            //Debug.Log(adUnitId);
 
-        // Create an empty ad request.
-        AdRequest request = new AdRequest.Builder().Build();
+            this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.TopRight);
 
-        // Load the banner with the request.
-        this.bannerView.LoadAd(request);
+            // Create an empty ad request.
+            AdRequest request = new AdRequest.Builder().Build();
 
+            // Load the banner with the request.
+            this.bannerView.LoadAd(request);
+        }
+        
 #endif
-    }
+        }
 
-    private void requestInterstitial()
+        private void requestInterstitial()
     {
 #if GLOWBOM_ADS
 #if UNITY_ANDROID
@@ -96,7 +100,9 @@ public class Monetization
         {
             interstitial.Show();
 
-            showBanner();
+            requestInterstitial();
+
+            //showBanner();
         }
 #endif
     }

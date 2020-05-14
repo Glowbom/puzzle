@@ -61,3 +61,21 @@ crashlytics-build.properties
 
 
 ios/
+android/
+Jigsaw Puzzle/android-1.0-v1.symbols.zip
+
+Jigsaw Puzzle/Assets/GoogleMobileAds/
+
+Jigsaw Puzzle/Assets/GoogleMobileAds.meta
+
+Jigsaw Puzzle/Assets/ExternalDependencyManager/
+
+Jigsaw Puzzle/Assets/Plugins.meta
+
+Jigsaw Puzzle/Assets/Plugins/
+
+Jigsaw Puzzle/Assets/Resources/Textures/voyage/
+
+*.aab
+
+Jigsaw Puzzle/jp-1.0-v1.symbols.zip

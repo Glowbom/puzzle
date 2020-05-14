@@ -1,0 +1,1 @@
+{"androidBanner":"ca-app-pub-4404692543863052/8622253259","androidInterstitial":"ca-app-pub-4404692543863052/8275796562","androidAppId":"ca-app-pub-4404692543863052~1722351726","iOSBanner":"ca-app-pub-4404692543863052/4147821625","iOSInterstitial":"ca-app-pub-4404692543863052/7298112031","iOSAppId":"ca-app-pub-4404692543863052~4184863533","showAdsIn":6}
