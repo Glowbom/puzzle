@@ -168,7 +168,7 @@ PlayerSettings:
     iPhone: com.globalsculptor.jigsawpuzzle
   buildNumber:
     iPhone: 2
-  AndroidBundleVersionCode: 4
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 1
