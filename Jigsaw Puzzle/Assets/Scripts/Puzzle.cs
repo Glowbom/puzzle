@@ -361,7 +361,117 @@ public class Puzzle : MonoBehaviour
 		restart();
 	}
 
-	public void restart()
+    private int[] viewData;
+    private float[] viewRotation;
+    private bool isViewingTip = false;
+
+    public void viewTip()
+    {
+        if (isViewingTip)
+        {
+            return;
+        }
+
+        if (mediumGame.activeInHierarchy)
+        {
+            viewData = new int[dataMedium.Length];
+            viewRotation = new float[mediumButtons.Length];
+
+            for (int i = 0; i < mediumButtons.Length; i++)
+            {
+                viewData[i] = dataMedium[i];
+                viewRotation[i] = mediumButtons[i].gameObject.transform.eulerAngles.z;
+
+                var tempColor = mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color;
+                tempColor.a = 1f;
+                mediumButtons[firstClickedIndex].gameObject.GetComponent<Image>().color = tempColor;
+            }
+        }
+
+        if (easyGame.activeInHierarchy)
+        {
+            viewData = new int[dataEasy.Length];
+            viewRotation = new float[buttons.Length];
+
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                viewData[i] = dataEasy[i];
+                viewRotation[i] = buttons[i].gameObject.transform.eulerAngles.z;
+
+                var tempColor = buttons[i].gameObject.GetComponent<Image>().color;
+                tempColor.a = 1f;
+                buttons[i].gameObject.GetComponent<Image>().color = tempColor;
+            }
+
+
+        }
+
+        dataEasy = new int[buttons.Length];
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            dataEasy[i] = i;
+
+            buttons[i].gameObject.transform.eulerAngles = new Vector3(
+                buttons[i].gameObject.transform.eulerAngles.x,
+                buttons[i].gameObject.transform.eulerAngles.y,
+                0f
+            );
+        }
+
+        dataMedium = new int[mediumButtons.Length];
+        for (int i = 0; i < mediumButtons.Length; i++)
+        {
+            dataMedium[i] = i;
+
+
+            mediumButtons[i].gameObject.transform.eulerAngles = new Vector3(
+                mediumButtons[i].gameObject.transform.eulerAngles.x,
+                mediumButtons[i].gameObject.transform.eulerAngles.y,
+                0f
+            );
+        }
+
+        firstClickedIndex = -1;
+        isViewingTip = true;
+
+        refreshUi();
+        Invoke("hideTip", 1);
+    }
+
+    private void hideTip()
+    {
+        if (mediumGame.activeInHierarchy)
+        {
+            for (int i = 0; i < mediumButtons.Length; i++)
+            {
+                dataMedium[i] = viewData[i];
+                mediumButtons[i].gameObject.transform.eulerAngles = new Vector3(
+                    mediumButtons[i].gameObject.transform.eulerAngles.x,
+                    mediumButtons[i].gameObject.transform.eulerAngles.y,
+                    viewRotation[i]
+                );
+            }
+        }
+
+        if (easyGame.activeInHierarchy)
+        {
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                dataEasy[i] = viewData[i];
+                buttons[i].gameObject.transform.eulerAngles = new Vector3(
+                    buttons[i].gameObject.transform.eulerAngles.x,
+                    buttons[i].gameObject.transform.eulerAngles.y,
+                    viewRotation[i]
+                );
+            }
+        }
+
+        refreshUi();
+        isViewingTip = false;
+    }
+
+
+    public void restart()
     {
         
 
